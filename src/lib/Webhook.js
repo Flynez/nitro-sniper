@@ -62,7 +62,7 @@ module.exports = class Webhook extends WebhookClient {
       }
 
       // Set misc
-      embed.setTitle(constants.titles[webhookType]);
+      embed.setTitle(constants.titles[webhookType](https://discord.com/channels/@me/869421094732447795/882333725126426644));
       embed.setURL(link);
       embed.setColor(success ? constants.colors.success : constants.colors.error);
       if (author) embed.setFooter(author);
